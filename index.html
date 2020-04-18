@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Milão</title>
+    <meta name="description" content="HTML tutorial">
+    <meta name="keywords" content="Milão, Itália, Arte">
+    <meta name="author" content="Tatiana Pereira">
+    <meta http-equiv="refresh" content="30">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css\mystyle.css">
+  </head>
+
+  <!--- Content starts here -->
+
+  <body>
+   <header>
+
+     <a id="menu_icon">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z" fill="white"/>
+      </svg>
+     </a>
+
+     <div id="drawer">
+       <nav>
+       <a href="#unordered">O Que Visitar?</a>
+       <a href="#ordered">Deslocação</a>
+       <a href="#color">Fotos</a>
+       <a href="#video">Vídeo</a>
+       <a href="#table">Tabela de Preços</a>
+     </nav>
+   </div>
+
+    <h1>MILÃO</h1>
+    <p>A Derradeira Experiência em Milão</p>
+
+   </header>
+
+  <nav id="tabletPC" class="col-3">
+    <a href="#unordered">O Que Visitar?</a>
+    <a href="#ordered">Deslocação</a>
+    <a href="#color">Fotos</a>
+    <a href="#video">Vídeo</a>
+    <a href="#table">Tabela de Preços</a>
+  </nav>
+
+    <div id="container" class="col-9">
+    <section class="slideshow-container">
+    <h2>A Minha Experiência</h2>
+
+    <article class="mySlides" class=“fade”>
+    <figure>
+    <img src="images/img1.jpg">
+    <figcaption>Figura 1: Castelo Sforzesco</br>
+    Localização: Piazza Castello, Milão</figcaption>
+    </figure>
+    </article>
+
+    <article class="mySlides" class=“fade”>
+    <figure>
+    <img src="images/img2.jpg">
+    <figcaption>Figura 2: Arco Della Pace</br>
+    Localização: Piazza Sempione, Milão</figcaption>
+    </figure>
+    </article>
+
+    <article class="mySlides" class=“fade”>
+    <figure>
+    <img src="images/img3.jpg">
+    <figcaption>Figura 3: Galleria Vittorio Emanuele</br>
+    Localização: Entre a Praça da Duomo e a Praça della Scala</figcaption>
+    </figure>
+    </article>
+
+  <div class="dotpoints">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  </div>
+
+  </section>
+
+  <section>
+    <a name=“unordered”>
+    <h2>O Que Visitar?</h2>
+    <p>Este ano conheci uma das cidades mais enriquecedoras ao nível das artes e da cultura.
+      Estes são alguns dos locais a visitar em Milão:</p>
+    <ul>
+        <li>Duomo</li>
+        <li>Galleria Vittorio Emanuele</li>
+        <li>Castelo Sforzesco</li>
+        <li>Arco della Pace</li>
+        <li>Parque Sempione</li>
+        <li>Pinacoteca di Brera
+        </li>
+    </ul>
+  </section>
+
+  <section>
+    <a name=“ordered”>
+    <h2>Deslocação</h2>
+    <p>Na cidade, as deslocações são feitas maioritariamente de transportes.</p>
+    <ol>
+        <li>Comboio (Trenitália; Trenord; Ítalo)</li>
+        <li>Metro (M1, M2, M3)</li>
+    </ol>
+  </section>
+
+  <section>
+    <a name=“color”>
+    <h2>Fotos</h2>
+    <p>Estas imagens são reais, mas aconselho a ver ao vivo.</p>
+    <img src = "https://media1.giphy.com/media/11BRTHEwcViz84/giphy.gif" width="100%" height="auto">
+    <img src = "images/image1.png" width="100%" height="auto">
+    <img src = "images/image2.jpg" width="100%" height="auto">
+  </section>
+
+  <section>
+    <a name="video">
+    <h2>Vídeo</h2>
+    <p>Milão em 3 minutos.</p>
+    <iframe width="100%" height="auto"
+        src="https://www.youtube.com/embed/-d9NXPs99YQ"
+        frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen>
+    </iframe>
+  </section>
+
+  <section>
+    <a name="table">
+    <h2>Tabela de Preços </h2>
+    <p>Aqui estão os valores da entrada da Duomo, um dos monumentos mais famosos da cidade. Variam conforme idade ou grupos.</p>
+    <table border=“1px” width="100%"  height="auto">
+<th colspan="3"> Bilhetes Combinados Duomo </th>
+<tr>
+<td> Acesso Passe Cultural </td> <td> Acesso Passe Elevador </td> <td> Preços </td>
+</tr>
+<tr>
+<td rowspan="4"> Catedral; Igrejas; Área Arqueológica; Museu e Exibições </td>
+<td rowspan="3"> Catedral; Igrejas; Área Arqueológica; Museu e Exibições </td>
+<td> 8€</td>
+</tr>
+<tr>
+<td> 13€ </td>
+</tr>
+<tr>
+<td> 17€</td>
+</tr>
+<tr>
+<td> Telhados </td> <td> 25€ </td>
+</tr>
+</table>
+  </section>
+  </div>
+
+  <aside class="col-2">
+    <h3>Conclusão</h3>
+    <p>Uma cidade de encantar e momentos para mais tarde recordar.</p>
+  </aside>
+
+    <footer>
+      <h2>By Tatiana Pereira</h2>
+    </footer>
+
+    <script>
+     let slideIndex = 0;
+     showSlides();
+     function showSlides() {
+     let i = null;
+     let slides = document.getElementsByClassName("mySlides");
+     let dots = document.getElementsByClassName("dot");
+     for (i = 0; i < slides.length; i++) {
+     slides[i].style.display = "none";
+   }
+     slideIndex++;
+     if (slideIndex> slides.length) {slideIndex = 1}
+     for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" active", "");
+   }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+ }
+
+ let menu_icon = document.querySelector('#menu_icon');
+let container = document.querySelector("#container");
+let drawer = document.querySelector('#drawer');
+
+menu_icon.addEventListener('click', function (e) {
+drawer.classList.toggle('open');
+e.stopPropagation();
+});
+container.addEventListener('click', function () {
+drawer.classList.remove('open');
+});
+    </script>
+
+  </body>
+  <!--- Content ends here -->
+</html>
